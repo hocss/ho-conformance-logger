@@ -1,0 +1,35 @@
+{
+  "name": "ho-conformance-logger",
+  "version": "0.0.0",
+  "description": "Manages ho conformance logging",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tape ./spec/*.js",
+    "build": "rm -rf dist && babel lib --out-dir dist",
+    "watch": "babel --watch lib --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattstyles/ho-conformance-logger.git"
+  },
+  "keywords": [
+    "ho",
+    "conformance",
+    "task",
+    "module",
+    "plugin"
+  ],
+  "author": "Matt Styles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattstyles/ho-conformance-logger/issues"
+  },
+  "homepage": "https://github.com/mattstyles/ho-conformance-logger",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel": "^5.1.9",
+    "tape": "^4.0.0"
+  }
+}
