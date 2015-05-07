@@ -1,6 +1,6 @@
 {
   "name": "ho-conformance-logger",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Manages ho conformance logging",
   "main": "dist/index.js",
   "scripts": {
